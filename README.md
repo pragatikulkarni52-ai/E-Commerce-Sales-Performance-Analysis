@@ -5,10 +5,10 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 
 ## Tools & Technologies
 - *Database:* MySQL / MySQL Workbench
-- *Visualization:* Microsoft Power BI (DAX Measures)
-- *Programming:* Python (Pandas, NumPy, Matplotlib)
-- *Spreadsheet:* Microsoft Excel
-- *IDE:* Jupyter Notebook
+- *Visualization:* Microsoft Power BI (DAX Measures,Interactive Dashboard creation)
+- *Programming:* Python (Pandas for data analysis, NumPy for computation, Matplotlib for visualization)
+- *Spreadsheet:* Microsoft Excel (Initial data handling)
+- *IDE:* Jupyter Notebook (Data cleaning EDA, and visualization)
 
 ## Dataset Overview
 | Field | Details |
