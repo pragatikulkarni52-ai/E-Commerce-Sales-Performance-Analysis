@@ -14,11 +14,11 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 | Field | Details |
 |---|---|
 | Total Orders | 1,200 |
-| Products | 7 |
-| Order Statuses | 5 (Delivered, Pending, Cancelled, Returned, Processing) |
-| Payment Methods | 5 (UPI, Credit Card, Debit Card, Net Banking, COD) |
-| Acquisition Channels | Instagram, Google, Facebook, Referral, Direct |
-| Coupons Used | FREESHIP, SAVE10, FLAT50, WELCOME, None | 
+| Products | 7 (Chair, Printer, Laptop, Tablet, Monitor, Desk, Phone |
+| Order Statuses | 5 (Delivered, Pending, Cancelled, Returned, Shipped) |
+| Payment Methods | 5 (UPI, Credit Card, Debit Card, Gift Card, COD) |
+| Acquisition Channels | Instagram, Google, Facebook, Referral, Email |
+| Coupons Used | FREESHIP, SAVE10, WINTER15, No Coupon | 
 
 ## Key Metrics (Power BI Dashboard)
 | Metric | Value |
