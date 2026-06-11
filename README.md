@@ -14,7 +14,7 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 | Field | Details |
 |---|---|
 | Total Orders | 1,200 |
-| Products | 7 (Chair, Printer, Laptop, Tablet, Monitor, Desk, Phone |
+| Products | 7 (Chair, Printer, Laptop, Tablet, Monitor, Desk, Phone)  |
 | Order Statuses | 5 (Delivered, Pending, Cancelled, Returned, Shipped) |
 | Payment Methods | 5 (UPI, Credit Card, Debit Card, Gift Card, COD) |
 | Acquisition Channels | Instagram, Google, Facebook, Referral, Email |
