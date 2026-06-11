@@ -10,6 +10,10 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 - *Spreadsheet:* Microsoft Excel (Initial data handling)
 - *IDE:* Jupyter Notebook (Data cleaning EDA, and visualization)
 
+##  Workflow
+
+Data Cleaning (Excel) → SQL Analysis → Python (EDA) → Power BI Dashboard
+
 ## Dataset Overview
 | Field | Details |
 |---|---|
@@ -63,3 +67,51 @@ Total Revenue = SUM(Sales[Revenue])
 Total Orders = COUNT(Sales[Order_ID])
 Average Order Value = DIVIDE([Total Revenue], [Total Orders])
 Profit = SUM(Sales[Profit])
+
+## SQL Queries
+
+Total Revenue Calculation
+Revenue by Product
+Product Ranking by Revenue
+Customer Acquisition by Channel
+Top Acquisition Channel Identification
+Revenue by Coupon Code
+Return Rate by Product
+Order Status Distribution
+Payment Method Analysis
+
+## Key SQL Insights
+
+1. Top Acquisition Channel: Instagram (highest customer acquisition)
+2. Highest Revenue Coupon: FREESHIP
+3. Return Rate: 20.58% — identified products with highest return rates
+4. Payment Preference: Analysed 5 payment methods for revenue contribution
+
+## Python Analysis (Jupyter Notebook)
+
+1. Data loading and exploration
+2. Missing value treatment
+3. Data type conversion and cleaning
+4. Revenue trend visualization (Line Plot)
+5. Product performance comparison (Bar Chart)
+6. Payment method distribution (Pie Chart)
+7. Return rate analysis (Bar Chart)
+8. Customer acquisition channel visualization
+
+## Excel Analysis
+
+1. Data cleaning and formatting
+2. Pivot Tables for revenue summary
+3. Pivot Tables for product performance
+4. Conditional formatting for KPI highlighting
+5. Revenue calculation using SUMIF, COUNTIF formulas
+6. Basic statistical analysis (Average, Min, Max)
+
+## Business Insights
+
+1. Instagram drives highest customer acquisition — prioritize Instagram marketing.
+2. FREESHIP coupon generates highest revenue — retain and promote this coupon.
+3. 20.58% return rate is high — investigate top returned products.
+4. UPI and Credit Card are preferred payment methods.
+5. Average Order Value ₹1,053.97 — potential for upselling higher value products.
+6. Delivered orders form the majority — supply chain is efficient.
