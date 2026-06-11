@@ -8,7 +8,7 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 - *Visualization:* Microsoft Power BI (DAX Measures)
 - *Programming:* Python (Pandas, NumPy, Matplotlib)
 - *Spreadsheet:* Microsoft Excel
-- *IDE:* Jupyter Notebook, VS Code
+- *IDE:* Jupyter Notebook
 
 ## Dataset Overview
 | Field | Details |
@@ -54,3 +54,12 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 - Product-wise Return Rate
 - Product-wise Average Order Value
 - Units Sold by Product
+
+## Key DAX Measures
+
+These DAX measures were used to calculate key business KPIs:
+
+Total Revenue = SUM(Sales[Revenue])
+Total Orders = COUNT(Sales[Order_ID])
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+Profit = SUM(Sales[Profit])
