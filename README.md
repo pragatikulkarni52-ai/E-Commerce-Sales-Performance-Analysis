@@ -1,24 +1,54 @@
 # E-Commerce-Sales-Performance-Analysis
 ## Project Overview
-Analyzed 1,200 real-world e-commerce orders across 7 products, 5 order statuses, and 5 payment methods to uncover business insights and support data-driven decision making.
+End-to-end E-Commerce Sales Performance Analysis on 1,200 real-world order records covering 7 products, 5 order statuses, and 5 payment methods.
+Built using SQL, Power BI, Python, and Excel to derive actionable business insights.
 
 ## Tools & Technologies
-- *SQL / MySQL* — Data extraction & analysis
-- *Power BI* — Interactive dashboard with DAX measures
-- *Python* — Pandas, NumPy, Matplotlib
-- *Excel* — Data cleaning & reporting
+- *Database:* MySQL / MySQL Workbench
+- *Visualization:* Microsoft Power BI (DAX Measures)
+- *Programming:* Python (Pandas, NumPy, Matplotlib)
+- *Spreadsheet:* Microsoft Excel
+- *IDE:* Jupyter Notebook, VS Code
 
-## Key Metrics
-- Total Revenue: ₹12,64,761.96
-- Total Customers: 1,000
-- Avg Order Value: ₹1,053.97
-- Return Rate: 20.58%
+## Dataset Overview
+ Total Orders - 1,200 
+ Products - 7 
+ Order Statuses - 5 (Delivered, Pending, Cancelled, Returned, Processing) 
+ Payment Methods - 5 (UPI, Credit Card, Debit Card, Net Banking, COD) 
+ Acquisition Channels - Instagram, Google, Facebook, Referral, Direct 
+ Coupons Used - FREESHIP, SAVE10, FLAT50, WELCOME, None 
 
-## Key Insights
-- Instagram identified as top customer acquisition channel
-- FREESHIP coupon generated highest revenue
-- Executed 9 SQL queries for product ranking & revenue analysis
-- Built 3-page interactive Power BI dashboard with DAX measures
+## Key Metrics (Power BI Dashboard)
+| Metric | Value |
+|---|---|
+| Total Revenue | ₹12,64,761.96 |
+| Total Customers | 1,000 |
+| Average Order Value | ₹1,053.97 |
+| Return Rate | 20.58% |
+| Total Orders | 1,200 |
 
-## Skills Demonstrated
-Data Analysis | Business Intelligence | Dashboard Development | SQL Querying | Process Optimization
+## Power BI Dashboard Pages
+
+### Page 1 — Sales Overview
+- Total Revenue KPI Card
+- Total Orders KPI Card
+- Average Order Value KPI Card
+- Return Rate KPI Card
+- Monthly Revenue Trend (Line Chart)
+- Revenue by Payment Method (Bar Chart)
+- Order Status Distribution (Donut Chart)
+
+### Page 2 — Customer Analysis
+- Total Customers KPI
+- Customer Acquisition by Channel (Bar Chart)
+- Top Acquisition Channel: Instagram
+- Revenue by Coupon Code (Bar Chart)
+- Highest Revenue Coupon: FREESHIP
+- Customer Segmentation by Order Frequency
+
+### Page 3 — Product Performance
+- Revenue by Product (Bar Chart)
+- Top Performing Product Analysis
+- Product-wise Return Rate
+- Product-wise Average Order Value
+- Units Sold by Product
