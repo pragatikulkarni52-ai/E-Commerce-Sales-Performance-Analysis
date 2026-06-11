@@ -70,15 +70,15 @@ Profit = SUM(Sales[Profit])
 
 ## SQL Queries
 
-Total Revenue Calculation
-Revenue by Product
-Product Ranking by Revenue
-Customer Acquisition by Channel
-Top Acquisition Channel Identification
-Revenue by Coupon Code
-Return Rate by Product
-Order Status Distribution
-Payment Method Analysis
+1. Total Revenue Calculation
+2. Revenue by Product
+3. Product Ranking by Revenue
+4. Customer Acquisition by Channel
+5. Top Acquisition Channel Identification
+6. Revenue by Coupon Code
+7. Return Rate by Product
+8. Order Status Distribution
+9. Payment Method Analysis
 
 ## Key SQL Insights
 
