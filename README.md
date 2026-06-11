@@ -11,12 +11,14 @@ Built using SQL, Power BI, Python, and Excel to derive actionable business insig
 - *IDE:* Jupyter Notebook, VS Code
 
 ## Dataset Overview
- Total Orders - 1,200 
- Products - 7 
- Order Statuses - 5 (Delivered, Pending, Cancelled, Returned, Processing) 
- Payment Methods - 5 (UPI, Credit Card, Debit Card, Net Banking, COD) 
- Acquisition Channels - Instagram, Google, Facebook, Referral, Direct 
- Coupons Used - FREESHIP, SAVE10, FLAT50, WELCOME, None 
+| Field | Details |
+|---|---|
+| Total Orders | 1,200 |
+| Products | 7 |
+| Order Statuses | 5 (Delivered, Pending, Cancelled, Returned, Processing) |
+| Payment Methods | 5 (UPI, Credit Card, Debit Card, Net Banking, COD) |
+| Acquisition Channels | Instagram, Google, Facebook, Referral, Direct |
+| Coupons Used | FREESHIP, SAVE10, FLAT50, WELCOME, None | 
 
 ## Key Metrics (Power BI Dashboard)
 | Metric | Value |
